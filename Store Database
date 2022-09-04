@@ -1,0 +1,19 @@
+CREATE TABLE store (ID integer primary key, name TEXT, rank Integer);
+
+Insert INTO store VALUES
+(1, 'Chicken', 2) ,
+(2, 'Steak' , 4) ,
+(3, 'Fish' , 5) ,
+(4, 'Pasta', 6 ) ,
+(5, 'Rice', 8),
+(6, 'Veggies', 9),
+(7, 'Shirts' , 14),
+(8,'Pants', 13), 
+(9, 'Shoes', 15),
+(10, 'Socks', 12),
+(11, 'Turkey', 7),
+(12,'Duck', 11),
+(13, 'Oxtail', 1), 
+(14,'Goat', 3),
+(15, 'Plant Base', 10); 
+SELECT * FROM store ORDER BY rank;
